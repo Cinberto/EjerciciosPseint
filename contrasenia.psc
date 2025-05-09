@@ -1,9 +1,9 @@
 Algoritmo contrasenia
 	definir password como cadena
-	escribir "ingresa la contraseña:"
+	escribir "ingresa la contraseÃ±a:"
 	leer password
-	Mientras password <> "1234" Hacer
-		escribir "la contraseña ingresada es incorrecta, intentelo de nuevo:"
+	Mientras password != "1234" Hacer
+		escribir "la contraseÃ±a ingresada es incorrecta, intentelo de nuevo:"
 		leer password
 	Fin Mientras
 	escribir "Ingreso correcto, bienvenido!"
